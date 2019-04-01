@@ -1,0 +1,3 @@
+sequenceDiagram
+main->> function: Call (arguments)
+function-->>main: Return (return value) 

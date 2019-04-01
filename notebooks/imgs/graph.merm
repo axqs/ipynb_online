@@ -1,0 +1,8 @@
+graph LR
+A --> E
+B --> D
+C --> E
+
+D --> E
+E --> F
+F --> D

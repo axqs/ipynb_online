@@ -1,0 +1,5 @@
+graph TD;
+  start --> if 
+  if --> true_path;
+  if --> finish;
+  true_path --> finish;

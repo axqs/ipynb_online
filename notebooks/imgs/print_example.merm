@@ -1,0 +1,11 @@
+sequenceDiagram
+main->> print_all_names: Call (arguments)
+print_all_names->> get_name: Call (arguments)
+get_name-->>print_all_names: Return (return value) 
+
+print_all_names->> print_name: Call (arguments)
+print_name->> print: Call (arguments)
+print-->>print_name: Return (return value)
+print_name-->> print_all_names: Return (return value)
+print_all_names-->> main: Return (return value)
+

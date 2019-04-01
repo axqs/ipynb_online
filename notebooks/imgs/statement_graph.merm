@@ -1,0 +1,7 @@
+graph TD;
+  start --> statement_1;
+  statement_1 --> statement_2;
+  statement_2 --> statement_3;
+  statement_3 --> statement_4;
+  statement_4 --> ...;
+  ... --> finish;

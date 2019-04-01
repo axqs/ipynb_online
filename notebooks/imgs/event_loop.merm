@@ -1,0 +1,9 @@
+sequenceDiagram
+main->>event_loop: register("BUTTON UP", on_button_up)
+main->>event_loop: register("BUTTON DOWN", on_button_down)
+world-->>event_loop: BUTTON UP
+event_loop->>on_button_up: event("BUTTON UP")
+world-->>event_loop: BUTTON DOWN
+event_loop->>on_button_down: event("BUTTON DOWN")
+world-->>event_loop: BUTTON UP
+event_loop->>on_button_up: event("BUTTON UP")

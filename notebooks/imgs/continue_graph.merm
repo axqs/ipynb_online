@@ -1,0 +1,12 @@
+graph TD;
+  start --> while 
+  while --> loop_body_1;
+  loop_body_1 --> if;
+
+  loop_body_2 --> while;
+  if --> loop_body_2;
+  if --> continue;
+  continue --> while;
+  while --> finish;
+
+

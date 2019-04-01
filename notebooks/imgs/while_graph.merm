@@ -1,0 +1,6 @@
+graph TD;
+  start --> while 
+  while --> loop_body;
+  while --> finish;
+  loop_body --> while;
+

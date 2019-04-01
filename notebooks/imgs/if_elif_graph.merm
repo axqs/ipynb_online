@@ -1,0 +1,9 @@
+graph TD;
+  start --> if 
+  if --> true_path;
+  if --> elif;
+  elif --> elif_path;
+  elif --> else_path;
+  elif_path --> finish;
+  else_path --> finish;
+  true_path --> finish;

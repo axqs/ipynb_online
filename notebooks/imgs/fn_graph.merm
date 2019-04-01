@@ -1,0 +1,6 @@
+graph TD;
+  start --> call;
+  call-- arguments -->function;
+  function -- parameters --> function_body;
+ function_body -- return value --> finish;
+
