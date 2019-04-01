@@ -4,7 +4,7 @@ This project contains **Lecture Notes**&mdash;Jupyter Notebook Python lectures f
 
 Jupyter (IPython) notebooks you can view here on github, or click the **NB** link to view them on [nbviewer](http://nbviewer.jupyter.org/) (which sometimes works better). If you want to *run* the notebooks, not just view them, you can clone the project.
 
-# Index of Jupyter (IPython) Notebooks
+# Jupyter Notebooks
 
 |Lecture Notes|
 |---|
